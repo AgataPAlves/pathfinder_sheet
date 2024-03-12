@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: ["./src/**/*.{html,ts}"],
-  theme: {
-      extend: {
-          colors: {
+    theme: {
+        extend: {
+            fontFamily: {
+                logo: ["EB Garamond", "serif"],
+          },
+            colors: {
               'Bistre': '#392010',
               'Flax': '#E7DE95',
               'Vanilla': '#FBEAB8',
